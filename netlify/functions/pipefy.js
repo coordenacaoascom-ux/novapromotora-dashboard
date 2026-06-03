@@ -9,7 +9,7 @@ exports.handler = async function(event) {
       path: '/graphql',
       method: 'POST',
       headers: {
-        'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3Nzk3MTA2MzMsImp0aSI6IjVjY2ZiMDcyLTczMzctNGIyMC05NjBkLWM1NzU5MTg4ZDlmMiIsInN1YiI6MzA3NDU5MDcxLCJ1c2VyIjp7ImlkIjozMDc0NTkwNzEsImVtYWlsIjoiZ2VzdGFvZGVwcm9jZXNzb3NAbm92YXByb21vdG9yYS5jb20ifSwidXNlcl90eXBlIjoiYXV0aGVudGljYXRlZCJ9.TNc4cCANOAs8l-dMbS7s1gcxmfXnJz7TYETF6fEg_3fkLM2PC_u_jdWQO4IjcBBQahyjfZMt4TsQ_ADfp9IYjA',
+        'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3ODAzMzU4MTUsImp0aSI6IjAwNjQzN2M4LWYyZTAtNGYwMS05ZmIxLTE0YmVhZDE2ZjY5NiIsInN1YiI6MzA3NDU5MDcxLCJ1c2VyIjp7ImlkIjozMDc0NTkwNzEsImVtYWlsIjoiZ2VzdGFvZGVwcm9jZXNzb3NAbm92YXByb21vdG9yYS5jb20ifSwidXNlcl90eXBlIjoiYXV0aGVudGljYXRlZCJ9.gyDi7LvQ96wEA5ikzBsuwXmfB0cduUYRK-FB3pWg0GT1XNY2XbEdvvrDG9lsRCJ7ic7Hkv1RMUyeyzb0s_ciMg',
         'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(body)
       }
