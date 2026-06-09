@@ -1,4 +1,4 @@
-const CACHE = 'painel-np-v1';
+const CACHE = 'nova-comercial-v3';
 const ASSETS = [
   '/paineldocomercial/',
   '/paineldocomercial/index.html',
