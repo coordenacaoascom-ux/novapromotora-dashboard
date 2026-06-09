@@ -50,7 +50,8 @@ async function fetchAllCards(pipeId) {
         cc: f['CÓDIGO COMERCIAL'] || '',
         reg: f['REGIONAL'] || '',
         sup: f['SUPERINTENDENTE'] || '',
-        cr: node.created_at ? node.created_at.split('T')[0].split('-').reverse().join('/') : ''
+        cr: node.created_at ? node.created_at.split('T')[0].split('-').reverse().join('/') : '',
+        obs: f['OBSERVAÇÃO'] || f['OBSERVACAO'] || ''
       });
     });
     hasNext = ac.pageInfo.hasNextPage;
