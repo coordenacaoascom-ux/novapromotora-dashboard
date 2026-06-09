@@ -1,12 +1,12 @@
 {
-  "name": "Painel Comercial - Nova Promotora",
-  "short_name": "Painel NP",
+  "name": "Nova Comercial - Nova Promotora",
+  "short_name": "Nova Comercial",
   "description": "Dashboard comercial Nova Promotora",
   "start_url": "/paineldocomercial/",
   "scope": "/paineldocomercial/",
   "display": "standalone",
-  "background_color": "#060810",
-  "theme_color": "#00c8ff",
+  "background_color": "#1a2a4a",
+  "theme_color": "#1a2a4a",
   "orientation": "portrait-primary",
   "icons": [
     {
